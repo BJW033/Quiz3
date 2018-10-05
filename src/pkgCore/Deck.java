@@ -48,10 +48,10 @@ public class Deck {
 		int answer = 0;
 		for(Card c : cardsInDeck) {
 			if(e instanceof eRank) {
-				if(c.geteRank()==e)answer++;
+				if(c.geteRank()==(eRank)e)answer++;
 			}
 			if(e instanceof eSuit) {
-				if(c.geteSuit()==e)answer++;
+				if(c.geteSuit()==(eSuit)e)answer++;
 			}
 		}
 		return answer;	

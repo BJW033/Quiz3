@@ -15,8 +15,8 @@ public class GetRemainingTest {
 		Deck test = new Deck();
 		for(int i= 0;i<25;i++) {test.Draw();}
 		System.out.println(test.getiDeckCount());
-		System.out.println(test.getRemaining(eRank.THREE));
-		System.out.println(test.getRemaining(eSuit.HEARTS));
+		System.out.println("Remaining threes: "+test.getRemaining(eRank.THREE));
+		System.out.println("Remaining Hearts: "+test.getRemaining(eSuit.HEARTS));
 	}
 
 }
